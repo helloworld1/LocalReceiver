@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">LocalReceiver</string>
+    <string name="share_label">Save to Local Directory</string>
+
+    <!-- Main Screen -->
+    <string name="destination_card_title">Destination Directory</string>
+    <string name="destination_default_name">Downloads (System Default)</string>
+    <string name="destination_default_subtitle">Standard public Download folder (/sdcard/Download)</string>
+    <string name="btn_select_custom_dir">Select Custom Directory</string>
+    <string name="btn_reset_default_dir">Reset to Default (Downloads)</string>
+
+    <!-- How to use -->
+    <string name="how_to_use_title">How It Works</string>
+    <string name="how_to_use_body">1. Open any local file browser or app.\n2. Select one or more files and tap Share.\n3. Choose LocalReceiver from the share sheet.\n4. Confirm the source and destination in the dialog to copy the file(s) and open them when finished.</string>
+
+    <!-- Share Confirmation & Foreground Copy Dialog -->
+    <string name="confirm_copy_title">Confirm File Copy</string>
+    <string name="source_files_label">Source File(s)</string>
+    <string name="destination_folder_label">Destination Folder</string>
+    <string name="btn_change_folder">Change Folder</string>
+    <string name="btn_use_downloads">Default</string>
+    <string name="btn_confirm_copy">Copy Here</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_done">Done</string>
+    <string name="btn_open">Open</string>
+    <string name="no_shared_files">No valid files found in the share request.</string>
+
+    <!-- Foreground Progress & Result States -->
+    <string name="copying_single_title">Copying File…</string>
+    <string name="copying_multiple_title">Copying File (%1$d of %2$d)…</string>
+    <string name="copy_success_title">Copy Complete</string>
+    <string name="copy_failure_title">Copy Failed</string>
+    <string name="copy_cancelled_title">Copy Cancelled</string>
+    <string name="cannot_open_file">No application found to open the copied file.</string>
+
+    <!-- History Screen -->
+    <string name="history_title">Copy History</string>
+    <string name="history_card_subtitle">View past file copy operations, open received files, or manage storage.</string>
+    <string name="btn_view_history">View History</string>
+    <string name="action_history">History</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="history_empty_title">No Copy History</string>
+    <string name="history_empty_subtitle">Files copied with LocalReceiver will appear here.</string>
+
+    <string name="history_status_success">Success</string>
+    <string name="history_status_failure">Failed</string>
+    <string name="history_status_cancelled">Cancelled</string>
+    <string name="history_file_deleted_badge">File Deleted</string>
+
+    <string name="history_source_prefix">From: %1$s</string>
+    <string name="history_dest_prefix">To: %1$s</string>
+
+    <!-- History Options Dialog -->
+    <string name="history_action_open">Open File</string>
+    <string name="history_action_delete_file">Delete File from Storage</string>
+    <string name="history_action_remove_entry">Remove from History</string>
+
+    <!-- Delete Confirmation Dialog -->
+    <string name="dialog_delete_file_title">Delete File?</string>
+    <string name="dialog_delete_file_message">Are you sure you want to permanently delete \"%1$s\" from storage? This cannot be undone.</string>
+    <string name="btn_delete">Delete</string>
+    <string name="file_deleted_success">File deleted from storage</string>
+    <string name="file_delete_failed">Failed to delete file. It may have already been moved or deleted.</string>
+    <string name="history_entry_removed">History entry removed</string>
+
+    <!-- Clear All Dialog -->
+    <string name="dialog_clear_all_title">Clear All History?</string>
+    <string name="dialog_clear_all_message">Are you sure you want to clear all history records? This will only remove the history log and will NOT delete your copied files.</string>
+    <string name="btn_clear_all">Clear All</string>
+    <string name="history_cleared_success">All history records cleared</string>
+    <string name="history_already_empty">History is already empty</string>
+
+    <!-- About Dialog -->
+    <string name="action_about">About</string>
+    <string name="about_dialog_title">About LocalReceiver</string>
+    <string name="about_dialog_message">LocalReceiver v%1$s\n\nAuthor: Liberty\nCopyright © 2026 Liberty. All rights reserved.</string>
+    <string name="btn_ok">OK</string>
+</resources>

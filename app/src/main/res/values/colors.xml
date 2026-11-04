@@ -1,0 +1,14 @@
+<resources>
+    <color name="primary">#0061A4</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_container">#D1E4FF</color>
+    <color name="on_primary_container">#001D36</color>
+    <color name="secondary">#535F70</color>
+    <color name="surface_variant">#DFE2EB</color>
+    <color name="scrim">#80000000</color>
+
+    <color name="status_success">#2E7D32</color>
+    <color name="status_error">#BA1A1A</color>
+    <color name="status_cancelled">#E65100</color>
+    <color name="status_deleted">#757575</color>
+</resources>
