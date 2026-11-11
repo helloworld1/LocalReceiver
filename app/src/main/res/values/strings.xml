@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LocalReceiver</string>
+    <string name="app_name">Local Receiver</string>
     <string name="share_label">Save to Local Directory</string>
 
     <!-- Main Screen -->
@@ -11,7 +11,7 @@
 
     <!-- How to use -->
     <string name="how_to_use_title">How It Works</string>
-    <string name="how_to_use_body">1. Open any local file browser or app.\n2. Select one or more files and tap Share.\n3. Choose LocalReceiver from the share sheet.\n4. Confirm the source and destination in the dialog to copy the file(s) and open them when finished.</string>
+    <string name="how_to_use_body">1. Open any local file browser or app.\n2. Select one or more files and tap Share.\n3. Choose Local Receiver from the share sheet.\n4. Confirm the source and destination in the dialog to copy the file(s) and open them when finished.</string>
 
     <!-- Share Confirmation & Foreground Copy Dialog -->
     <string name="confirm_copy_title">Confirm File Copy</string>
@@ -40,7 +40,7 @@
     <string name="action_history">History</string>
     <string name="action_clear_all">Clear All</string>
     <string name="history_empty_title">No Copy History</string>
-    <string name="history_empty_subtitle">Files copied with LocalReceiver will appear here.</string>
+    <string name="history_empty_subtitle">Files copied with Local Receiver will appear here.</string>
 
     <string name="history_status_success">Success</string>
     <string name="history_status_failure">Failed</string>
@@ -72,7 +72,7 @@
 
     <!-- About Dialog -->
     <string name="action_about">About</string>
-    <string name="about_dialog_title">About LocalReceiver</string>
-    <string name="about_dialog_message">LocalReceiver v%1$s\n\nAuthor: Liberty\nCopyright © 2026 Liberty. All rights reserved.</string>
+    <string name="about_dialog_title">About Local Receiver</string>
+    <string name="about_dialog_message">Local Receiver v%1$s\n\nAuthor: Liberty\nCopyright © 2026 Liberty. All rights reserved.</string>
     <string name="btn_ok">OK</string>
 </resources>
