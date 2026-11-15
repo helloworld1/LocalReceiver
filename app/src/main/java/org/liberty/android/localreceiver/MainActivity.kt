@@ -4,8 +4,12 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Bundle
+import android.text.method.LinkMovementMethod
+import android.text.util.Linkify
+import android.widget.TextView
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.text.util.LinkifyCompat
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import org.liberty.android.localreceiver.databinding.ActivityMainBinding
 
@@ -88,11 +92,16 @@ class MainActivity : AppCompatActivity() {
             "$versionName ($versionCode)"
         }.getOrDefault("1.0 (1)")
 
-        MaterialAlertDialogBuilder(this)
+        val dialog = MaterialAlertDialogBuilder(this)
             .setTitle(R.string.about_dialog_title)
             .setMessage(getString(R.string.about_dialog_message, versionText))
             .setPositiveButton(R.string.btn_ok, null)
             .show()
+
+        dialog.findViewById<TextView>(android.R.id.message)?.apply {
+            LinkifyCompat.addLinks(this, Linkify.WEB_URLS)
+            movementMethod = LinkMovementMethod.getInstance()
+        }
     }
 
     private fun refreshDestinationUi() {

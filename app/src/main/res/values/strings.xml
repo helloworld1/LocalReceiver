@@ -73,6 +73,6 @@
     <!-- About Dialog -->
     <string name="action_about">About</string>
     <string name="about_dialog_title">About Local Receiver</string>
-    <string name="about_dialog_message">Local Receiver v%1$s\n\nAuthor: Liberty\nCopyright © 2026 Liberty. All rights reserved.</string>
+    <string name="about_dialog_message">Local Receiver v%1$s\n\nAuthor: Liberty\nCopyright © 2026 Liberty. All rights reserved.\n\nGitHub: https://github.com/helloworld1/LocalReceiver</string>
     <string name="btn_ok">OK</string>
 </resources>
