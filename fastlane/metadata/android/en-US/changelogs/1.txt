@@ -1,0 +1,5 @@
+- Initial release of Local Receiver (v1.0)
+- Receive single or multiple shared files from any app via the Android share sheet
+- Save files to the default Downloads folder or any custom directory via Storage Access Framework
+- Confirmation dialog with destination switching, live copy progress, cancellation, and quick Open action
+- On-device Copy History to reopen received files, delete copied files from storage, or clear history

@@ -1,0 +1,22 @@
+Local Receiver lets you save files shared from any Android app directly to your device storage. Choose the system Downloads folder or pick any custom folder with a clean confirmation dialog, live copy progress, and an on-device copy history.
+
+Why It's Helpful:
+- Save from apps without a "Save to folder" button: Many messaging, email, and document apps only offer Share—use Local Receiver as a universal save target
+- Export files out of app-private storage: Copy shared attachments, exports, or documents into Downloads or a custom folder for file managers and other apps
+- Skip repetitive file picking: Set your preferred folder once and save one or multiple files in seconds
+- Track received files: Reopen recently saved files or clean them up later from Copy History
+
+How It Works:
+- Open any app or file browser and tap Share on one or more files
+- Select Local Receiver from the Android share sheet
+- Review the source file(s) and destination folder, change the folder if needed, and tap Copy Here
+- Monitor copy progress with cancellation support and open the copied file immediately when finished
+
+Features:
+- Accepts single or multiple shared files of any type
+- Saves to the standard Downloads folder by default or any custom directory via Android Storage Access Framework
+- Quick folder switching or reset to Downloads directly from the main screen or share dialog
+- Foreground progress dialog with file count, byte progress, and cancel button
+- On-device Copy History tracking completed, failed, and cancelled transfers
+- Open received files directly, delete copied files from storage, or clear history entries
+- Completely offline and privacy-friendly with no internet permission, ads, or trackers
